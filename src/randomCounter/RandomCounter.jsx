@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Button } from 'antd'
 import { getRandomArbitrary } from './utilits/getRandomArbitrary'
 import Item from './item/Item'
-import './randomCounter.css'
+import './RandomCounter.css'
 
 const RandomCounter = () => {
 	const [items, setItems] = useState([])
