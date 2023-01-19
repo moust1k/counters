@@ -1,4 +1,4 @@
-import './RandomCounter.css'
+import './RandomCounterC.css'
 import React, { useState } from 'react'
 import { Button } from 'antd'
 import { getRandomArbitrary } from './utilits/getRandomArbitrary'
