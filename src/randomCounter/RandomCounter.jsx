@@ -1,7 +1,7 @@
 import './RandomCounterC.css'
 import React, { useState } from 'react'
 import { Button } from 'antd'
-import { GetRandomArbitrary } from './utilits/GetRandomArbitrary'
+import { getRandomArbitrary } from './utilits/getRandomArbitrary'
 import Item from './item/Item'
 
 const RandomCounter = () => {
@@ -12,7 +12,7 @@ const RandomCounter = () => {
 	}
 
 	let onRandom = () => {
-		let time = GetRandomArbitrary(10, 20)
+		let time = getRandomArbitrary(10, 20)
 		let item = {
 			id: Date.now(),
 			time
