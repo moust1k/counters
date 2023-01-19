@@ -1,0 +1,14 @@
+.startCounter {
+	width: 100px;
+	height: 50px;
+}
+
+.counter {
+	font-size: 100px;
+}
+
+.control-wrapper {
+	border-bottom: 1px solid #000;
+	width: 80%;
+	padding-bottom: 4rem;
+}
